@@ -1,0 +1,14 @@
+# From your repo root
+cd coding_challenge_2025
+
+# Compile
+iverilog -o stack_test stack.v tb_stack.v
+
+# Run
+vvp stack_test
+
+
+vvp stack_test > output_log.txt
+
+
+cat output_log.txt
